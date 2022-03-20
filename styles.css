@@ -1,0 +1,90 @@
+/* General */
+
+* {
+    margin: 0px;
+    font-size: 25px;
+    flex-grow: 0;
+}
+
+html {
+
+}
+
+button {
+    border-radius: 6px;
+    border: none;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Display */
+.display {
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 2px;
+    background-color: aliceblue;
+    min-height: 20px;
+    padding: 8px;
+    width: 75%;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-justify: center;
+    margin: 8px;
+    margin-top: 20px;
+    max-height: 300px;
+}
+
+/* Buttons */
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    max-height: 400px;
+    padding-right: 6px;
+
+}
+
+
+/* Numbers */
+
+.numberContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    order: 1;
+    margin: 0px 8px;
+    gap: 5px;
+    padding: 8px;
+
+}
+
+.numberContainer button {
+    background-color:rgb(185, 226, 250);
+}
+
+/* Operators */
+
+.operatorContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    order: 2;
+    height: 100%;
+    gap: 3px;
+    padding: 8px;
+}
+
+.operatorContainer button {
+    background-color:rgb(185, 226, 250);
+}
+
